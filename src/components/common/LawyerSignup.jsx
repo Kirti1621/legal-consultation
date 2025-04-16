@@ -15,7 +15,7 @@ export const LawyerSignup = () => {
     const submitHandler = async (data) => {
         
         console.log(data);
-        data.roleId = "67c2aecd4e0ed74a6a077cf7";
+        data.roleId = "67fe7003ebaab84556239a95";
         
         console.log(data);
         console.log(data.image[0])

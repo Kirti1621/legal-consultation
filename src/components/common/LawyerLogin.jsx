@@ -176,7 +176,8 @@ export const LawyerLogin = () => {
   const submitHandler = async (data) => {
     try {
       const res = await axios.post("/lawyerLogin", data);
-      console.log(res.data);
+      console.log("Login Response:",res.data);
+      console.log("RoleId:", res.data.data.roleId);
 
       if (res.status === 200) {
         toast.success("Login Successfully", {

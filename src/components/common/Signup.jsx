@@ -113,7 +113,7 @@ export const Signup = () => {
 
     const submitHandler = async (data) => {
         console.log(data);
-        data.roleId = "67c2aeb24e0ed74a6a077cf5";
+        data.roleId = "67fe7022ebaab84556239a97";
 
         setisLoading(true)
         const res = await axios.post("/user", data);
